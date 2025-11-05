@@ -6,9 +6,6 @@ public class VentaDetalleRequestDto {
     private Integer cantidad;
     private Double precioUnitario;
 
-    // ===========================
-    //     CONSTRUCTORES
-    // ===========================
     public VentaDetalleRequestDto() {}
 
     public VentaDetalleRequestDto(Integer productoId, Integer cantidad, Double precioUnitario) {
@@ -17,9 +14,6 @@ public class VentaDetalleRequestDto {
         this.precioUnitario = precioUnitario;
     }
 
-    // ===========================
-    //     GETTERS Y SETTERS
-    // ===========================
     public Integer getProductoId() {
         return productoId;
     }
